@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="settings.css">
+    <style>.center{text-align: center;}</style>
+</head>
+<body>
+    <!-- H1 -->
+    <header>
+        <h1 class="center font-large" >Antikacım</h1>
+    </header>
+    <!-- Nav -->
+    <nav class="color">        
+        <table class="ortala font-medium p2">
+            <tr >
+                <td><a href="index.html">Ana Sayfa</a></td>
+                <td><a href="about-us.html">Hakkımızda</a></td>
+                <td><a href="product.html">Ürünlerimiz</a></td>
+                <td><a href="contact.html">İletişim</a></td>
+            </tr>
+        </table>
+        <hr>
+    </nav>
+    <article>
+        <h2 class="center">Kayıt Formu</h2>
+        <form action="index.html">
+            <!-- Name -->
+            <label for="name">Adınız :</label><br>
+            <input type="text" name="Firstname" id="Firstname"><br>
+            <label for="name">Soyadınız :</label><br>
+            <input type="text" name="Surname" id="Surname"><br>
+            <!-- Password -->
+            <label for="pwd">Şifre Giriniz</label><br>
+            <input type="password" name="password" id="password"><br>
+            <!-- Email -->
+            <label for="email">E-mail</label><br>
+            <input type="email" name="E-mail" id="email"><br><br>
+            <!-- radio -->
+            <label for="gender-choose">Cinsiyetiniz :</label>
+            <label for="Male">Erkek</label>
+            <input type="radio" id="gender" name="Gender" value="male">
+            <label for="Female">Kadın</label>
+            <input type="radio" name="Gender" value="Female"><br><br>
+            <!-- select input -->
+            <label for="choose">İlgi Alanınız:</label>
+            <select id="interest" name="interest">
+                <option value="war">Savaş Antikası</option>
+                <option value="jewellery">Mücevher</option>
+                <option value="guns">silah</option>
+            </select><br><br>
+            <!-- Submit Button -->
+            <input type="submit" value="Gönder">
+            <!--Reset Button-->
+            <input type="reset" name="reset" id="reset">
+        </form>
+    </article>
+    
+</body>
+</html>
